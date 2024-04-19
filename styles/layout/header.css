@@ -1,0 +1,59 @@
+header {
+    max-width: 1320px;
+    margin: auto;
+    border-radius: 64px;
+}
+
+.navbar-brand {
+    max-width: 100px;
+}
+
+.navbar {
+    background-color: transparent;
+    backdrop-filter: blur(6px)
+}
+
+.nav-item a:hover {
+    transform: scale(1.2);
+    transition: 0.6s;
+}
+
+.link-linkedin:hover,
+.link-github:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.nav .nav-link.active {
+    color: #022b42;
+}
+link {
+    color: #032030;
+    color: #022b42;
+    color: #003554;
+    color: #004d74;
+    color: #006494;
+    color: #006da4;
+}
+
+
+.nav .nav-link {
+    color: #022b42;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 766px){
+    .nav-item {
+        text-align: center;
+    }
+
+    .link-linkedin,
+    .link-github{
+        display: none;
+    }
+
+}
