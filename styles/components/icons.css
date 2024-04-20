@@ -1,0 +1,79 @@
+.links-fixos-mobile a svg{
+    color: #022b42;
+    position: fixed;
+    z-index: 9999;
+    display: none;
+}
+
+@media (min-width: 477px) and (max-width: 766px) {
+    .links-fixos-mobile a svg{
+        display: flex;
+        z-index: 9999;
+        position: fixed;
+        color: #004d74;
+        filter: drop-shadow(0 0 0.1rem #006da459);
+    }
+    
+    .icon-fixo-linkedin {
+        bottom: 30px;
+        right: 35px;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .icon-fixo-github {
+        bottom: 30px;
+        right: 95px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .icon-fixo-instagram{
+        bottom: 30px;
+        right: 160px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .links-fixos-mobile a svg:hover{
+        transform: rotate(12deg);
+        transition: 0.6s;
+    }
+}
+
+@media (min-width: 374px) and (max-width: 476px) {
+    .links-fixos-mobile a svg{
+        display: flex;
+        z-index: 9999;
+        position: fixed;
+        color: #004d74;
+        filter: drop-shadow(0 0 0.1rem #006da459);
+    }
+    
+    .icon-fixo-linkedin {
+        bottom: 30px;
+        right: 35px;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .icon-fixo-github {
+        bottom: 30px;
+        right: 95px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .icon-fixo-instagram{
+        bottom: 30px;
+        right: 160px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .links-fixos-mobile a svg:hover{
+        transform: rotate(12deg);
+        transition: 0.6s;
+    }
+
+}

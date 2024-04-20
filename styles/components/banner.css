@@ -1,0 +1,111 @@
+.img-sobre {
+    max-width: 550px;
+    filter: drop-shadow(-3rem 0 2rem rgb(133, 132, 132));
+}
+
+.sobre {
+    margin-top: 186px;
+}
+
+
+.section-sobre {
+    padding: 10px;
+    padding-bottom: 64px;
+}
+
+.sobre h1{
+    font-size: 6em;
+    letter-spacing: -5px;
+}
+
+.sobre h1 span {
+    font-size: 1.3em;
+}
+
+.text-principal {
+    color: #003554;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.sobre h3 {
+    color: #ffffff;
+    padding: 3px;
+    margin: 32px;
+    background-color: #004d74;
+    border-radius: 20px;
+}
+
+@media (min-width: 477px) and (max-width: 1200px) {
+    .sobre img {
+        max-width: 80%;
+        filter: drop-shadow(-3rem 0 2rem rgb(133, 132, 132));
+    }
+
+    .sobre h1{
+        font-size: 4em;
+        letter-spacing: -4px;
+    }
+    
+    .sobre h1 span {
+        font-size: 1.3em;
+    }
+    
+    .text-principal {
+        color: #003554;
+        font-weight: bold;
+        line-height: 50px;
+    }
+    
+    .sobre h3 {
+        color: #ffffff;
+        margin: 16px;
+        background-color: #004d74;
+        border-radius: 20px;
+        font-size: 1em;
+    }
+
+}
+
+
+
+@media (min-width: 374px) and (max-width: 476px) {
+
+    .sobre img {
+        max-width: 300px;
+        display: flex;
+        margin: auto;
+        filter: drop-shadow(-3rem 0 2rem rgb(133, 132, 132));
+    }
+    
+    .sobre {
+        margin-top: 140px;
+    }
+    
+    .sobre h1{
+        font-size: 3.5em;
+        letter-spacing: -1px;
+    }
+    
+    .sobre h1 span {
+        font-size: 1.3em;
+    }
+    
+    .text-principal {
+        color: #003554;
+        font-weight: bold;
+        line-height: 45px;
+    }
+    
+    .sobre h3 {
+        color: #ffffff;
+        padding: 2px;
+        margin: 16px;
+        background-color: #004d74;
+        border-radius: 20px;
+        font-size: 1em;
+    }
+    
+    
+}
+
