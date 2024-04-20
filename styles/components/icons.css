@@ -17,22 +17,22 @@
     .icon-fixo-linkedin {
         bottom: 30px;
         right: 35px;
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
     }
     
     .icon-fixo-github {
         bottom: 30px;
         right: 95px;
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
     }
 
     .icon-fixo-instagram{
         bottom: 30px;
         right: 160px;
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
     }
 
     .links-fixos-mobile a svg:hover{
@@ -41,7 +41,7 @@
     }
 }
 
-@media (min-width: 374px) and (max-width: 476px) {
+@media (min-width: 260px) and (max-width: 476px) {
     .links-fixos-mobile a svg{
         display: flex;
         z-index: 9999;
@@ -53,22 +53,22 @@
     .icon-fixo-linkedin {
         bottom: 30px;
         right: 35px;
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
     }
     
     .icon-fixo-github {
         bottom: 30px;
-        right: 95px;
-        width: 40px;
-        height: 40px;
+        right: 85px;
+        width: 30px;
+        height: 30px;
     }
 
     .icon-fixo-instagram{
         bottom: 30px;
-        right: 160px;
-        width: 40px;
-        height: 40px;
+        right: 140px;
+        width: 30px;
+        height: 30px;
     }
 
     .links-fixos-mobile a svg:hover{
