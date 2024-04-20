@@ -10,7 +10,8 @@ header {
 
 .navbar {
     background-color: transparent;
-    backdrop-filter: blur(12px)
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
 }
 
 .nav-item a:hover {
@@ -23,7 +24,7 @@ header {
 .link-instagram:hover{
     transform: scale(1.3);
     transition: 1s;
-   color: gren;
+    color: gren;
 }
 
 .nav .nav-link.active {
