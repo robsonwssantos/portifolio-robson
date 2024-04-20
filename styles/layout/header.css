@@ -22,9 +22,8 @@ header {
 .link-linkedin:hover,
 .link-github:hover,
 .link-instagram:hover{
-    transform: scale(1.3);
-    transition: 1s;
-    color: gren;
+    transition: 1.6s;
+    transform: rotateY(360deg);
 }
 
 .nav .nav-link.active {
