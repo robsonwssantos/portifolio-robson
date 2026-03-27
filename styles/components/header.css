@@ -2,6 +2,8 @@
 
 nav {
   display: flex;
+  flex-flow: nowrap;
+  flex-wrap: wrap;
   justify-content: flex-end;
 }
 
@@ -22,11 +24,16 @@ nav li:first-child {
 
 nav a {
   height: 100%;
-  padding: 0 30px;
+  padding: 0 20px;
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: rgb(221, 15, 15);
+  color: #011859;
+}
+
+nav a:hover {
+  color: #042275d7;
+  transition-duration: 0.9s;
 }
 
 nav li {
@@ -34,9 +41,25 @@ nav li {
   align-items: center;
 }
 
-.btn-sidebar {
+.iconsNavbar {
+  fill: #011859;
+}
+
+.iconsNavbar:hover {
+  fill: #042275d7;
+  transform: scale(1.1);
+  transition-duration: 0.9s;
+}
+
+.btn-hide-sidebar {
   border: none;
   background: transparent;
+  margin-left: 12px;
+  fill: #011859;
+}
+
+.img-logonavbar img {
+  max-width: 110px;
 }
 
 .sidebar {
@@ -52,4 +75,55 @@ nav li {
   align-items: flex-start;
   justify-content: flex-start;
   backdrop-filter: blur(10px);
+}
+
+@media screen and (min-width: 600px) {
+  .hideDesktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hideMobile {
+    display: none;
+  }
+  .btn-show-sidebar {
+    border: none;
+    background: transparent;
+    margin-right: 24px;
+    fill: #011859;
+  }
+
+  .img-logonavbar img {
+    max-width: 100px;
+  }
+
+  nav a:hover {
+    color: #042275d7;
+    transition-duration: 0.9s;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hideMobile {
+    display: none;
+  }
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 80vw;
+    z-index: 999;
+    background-color: rgba(169, 169, 169, 0.295);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    backdrop-filter: blur(10px);
+  }
+
+  .img-logonavbar img {
+    max-width: 80px;
+  }
 }
