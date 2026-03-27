@@ -1,34 +1,35 @@
 @font-face {
-    font-family: "b-thin";
-    src: url(../assets/fonts/Barlow-Thin.ttf);
+  font-family: "b-thin";
+  src: url(../assets/fonts/Barlow-Thin.ttf);
 }
 @font-face {
-    font-family: "b-regular";
-    src: url(../assets/fonts/Barlow-Regular.ttf);
+  font-family: "b-regular";
+  src: url(../assets/fonts/Barlow-Regular.ttf);
 }
 @font-face {
-    font-family: "b-medium";
-    src: url(../assets/fonts/Barlow-Medium.ttf);
+  font-family: "b-medium";
+  src: url(../assets/fonts/Barlow-Medium.ttf);
 }
 @font-face {
-    font-family: "b-bold";
-    src: url(../assets/fonts/Barlow-Bold.ttf);
+  font-family: "b-bold";
+  src: url(../assets/fonts/Barlow-Bold.ttf);
 }
 @font-face {
-    font-family: "b-xbold";
-    src: url(../assets/fonts/Barlow-ExtraBold.ttf);
+  font-family: "b-xbold";
+  src: url(../assets/fonts/Barlow-ExtraBold.ttf);
 }
 
 :root {
-    --primary-color: #d3ecfd;
-    --secondary-color: #011859;
-    --background-color: #F0F9FE;
-    --text-color-primary: #16317D;
-    --text-color-secondary:#F0F9FE;
+  --primary-color: #d3ecfd;
+  --secondary-color: #011859;
+  --background-color: #f0f9fe;
+  --text-color-primary: #16317d;
+  --text-color-secondary: #f0f9fe;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "b-medium";
 }

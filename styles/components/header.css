@@ -1,0 +1,55 @@
+@import url(../base.css);
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav li {
+  height: 70px;
+}
+nav li:first-child {
+  margin-right: auto;
+}
+
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: rgb(221, 15, 15);
+}
+
+nav li {
+  display: flex;
+  align-items: center;
+}
+
+.btn-sidebar {
+  border: none;
+  background: transparent;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 280px;
+  z-index: 999;
+  background-color: rgba(169, 169, 169, 0.295);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  backdrop-filter: blur(10px);
+}
