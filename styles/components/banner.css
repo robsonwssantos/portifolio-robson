@@ -20,32 +20,79 @@
   max-height: 50vw;
 }
 .txt-banner {
-  font-size: clamp(1.4rem, 5vw, 6rem);
+  font-size: clamp(1.6rem, 4vw, 6rem);
   text-align: center;
-  letter-spacing: -3px;
+  letter-spacing: -1px;
   color: #d3ecfd;
   line-height: 1;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  line-height: 1.2;
 }
 
-@media screen and (max-width: 500px) {
+/*
+.nome-robson {
+  font-size: clamp(3.4rem, 9vw, 12rem);
+}
+*/
+
+@media screen and (max-width: 530px) {
   #banner {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    border-radius: 36px;
+  }
+  .img-banner > img {
+    max-height: 90vw;
+    margin-top: -40px;
   }
   .txt-banner {
-    margin-top: -30px;
-    margin-bottom: 30px;
+    margin-top: -40px;
+    margin-bottom: 60px;
+    font-size: clamp(2rem, 6vw, 8rem);
   }
 }
 
 @media screen and (max-width: 390px) {
+  #banner {
+    display: flex;
+    align-items: center;
+    flex-flow: nowrap;
+    flex-wrap: wrap;
+    background-color: #011859;
+    width: 90vw;
+    height: 75vh;
+  }
+
   .txt-banner {
     margin-top: -30px;
     margin-bottom: 30px;
+    font-size: 1.3rem;
+    line-height: 1.2;
+  }
+  .img-banner > img {
+    max-height: 50vh;
+  }
+  .txt-banner {
+    margin-top: -90px;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .txt-banner {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+  }
+  .img-banner > img {
+    max-height: 40vh;
+  }
+  #banner {
+    background-color: #011859;
+    width: 90vw;
+    height: 55vh;
   }
 }
