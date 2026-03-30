@@ -54,7 +54,7 @@ nav li {
 }
 
 .iconsNavbarLinke {
-  fill: #0e76a8;
+  fill: #0d3a4e;
 }
 
 .iconsNavbar:hover {
@@ -92,10 +92,21 @@ nav li {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  backdrop-filter: blur(40px);
+  backdrop-filter: blur(28px);
   transition: all;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
+}
+
+.sidebar a {
+  color: #011859;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 90px;
+  margin: auto;
+}
+.sidebar svg {
+  margin-top: 64px;
 }
 
 @media screen and (min-width: 630px) {

@@ -17,6 +17,6 @@ function typeWrite(elemento) {
   textoArray.forEach(function (letra, i) {
     setTimeout(function () {
       elemento.innerHTML += letra;
-    }, 200 * i);
+    }, 290 * i);
   });
 }
