@@ -43,7 +43,7 @@
 
 .maquina-escrever::after {
   content: "|";
-  margin-left: 6px;
+  margin-left: 9px;
   opacity: 1;
   animation: pisca 0.9s infinite;
 }

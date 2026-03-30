@@ -49,12 +49,12 @@ nav li {
 }
 
 .iconsNavbar {
-  fill: #111112;
+  fill: #19191a;
   margin-left: 30px;
 }
 
 .iconsNavbarLinke {
-  fill: #0d3a4e;
+  fill: #187096;
 }
 
 .iconsNavbar:hover {
@@ -72,8 +72,7 @@ nav li {
 .btn-hide-sidebar {
   border: none;
   background: transparent;
-  fill: #011859;
-  margin-left: 90vw;
+  margin-left: 60vw;
 }
 
 .img-logonavbar img {
@@ -85,14 +84,15 @@ nav li {
   right: 0;
   top: 0;
   height: 100vh;
-  width: 100vw;
+  width: 70vw;
   z-index: 999;
-  background-color: rgba(169, 169, 169, 0.295);
+  background-color: #d3ecfd4b;
+  border-radius: 32px 0px 0px 32px;
   display: none;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  backdrop-filter: blur(28px);
+  backdrop-filter: blur(40px);
   transition: all;
   transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
@@ -102,11 +102,15 @@ nav li {
   color: #011859;
   font-size: 1.8rem;
   font-weight: bold;
-  padding: 90px;
   margin: auto;
 }
 .sidebar svg {
   margin-top: 64px;
+  fill: #011859;
+}
+.sidebar .btn-hide-sidebar svg {
+  fill: #011859;
+  width: 30px;
 }
 
 @media screen and (min-width: 630px) {
