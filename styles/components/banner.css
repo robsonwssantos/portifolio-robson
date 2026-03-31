@@ -14,13 +14,14 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  flex-flow: nowrap;
+  flex-flow: wrap;
   flex-wrap: wrap;
   background-color: #011859;
-  width: 90vw;
+  width: 80vw;
+  min-height: 30vh;
   margin: auto;
   border-radius: 60px;
-  margin-top: 30px;
+  margin-top: 64px;
   box-shadow:
     rgba(0, 0, 0, 0.265) 0px 20px 25px -5px,
     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
@@ -48,11 +49,7 @@
   animation: pisca 0.9s infinite;
 }
 
-.nome-robson {
-  font-size: clamp(3.2rem, 11vw, 12rem);
-}
-
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 760px) {
   #banner {
     display: flex;
     align-items: center;
@@ -61,17 +58,13 @@
     border-radius: 36px;
   }
   .img-banner > img {
-    max-height: 90vw;
+    max-height: 80vw;
     margin-top: -40px;
   }
   .txt-banner {
     margin-top: -40px;
     margin-bottom: 60px;
     font-size: clamp(1.6rem, 6vw, 8rem);
-  }
-
-  .nome-robson {
-    font-size: clamp(3rem, 17vw, 16rem);
   }
 }
 
@@ -82,29 +75,16 @@
     flex-flow: nowrap;
     flex-wrap: wrap;
     background-color: #011859;
-    width: 90vw;
-    min-height: 40vh;
+    width: 80vw;
+    min-height: 20vh;
   }
-  .nome-robson {
-    font-size: clamp(3rem, 17vw, 16rem);
-  }
+
   .txt-banner {
     font-size: 1.4rem;
     line-height: 1.2;
   }
   .img-banner > img {
     max-width: 30vh;
-  }
-}
-
-@media screen and (max-width: 310px) {
-  .nome-robson {
-    font-size: clamp(3.7rem, 17vw, 16rem);
-  }
-  #banner {
-    background-color: #011859;
-    width: 90vw;
-    min-height: 30vh;
   }
 }
 
