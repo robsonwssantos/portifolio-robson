@@ -85,13 +85,26 @@
     width: 90vw;
     min-height: 40vh;
   }
-
+  .nome-robson {
+    font-size: clamp(3rem, 17vw, 16rem);
+  }
   .txt-banner {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     line-height: 1.2;
   }
   .img-banner > img {
     max-width: 30vh;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .nome-robson {
+    font-size: clamp(3.7rem, 17vw, 16rem);
+  }
+  #banner {
+    background-color: #011859;
+    width: 90vw;
+    min-height: 30vh;
   }
 }
 
