@@ -16,7 +16,7 @@
   justify-content: space-evenly;
   flex-flow: wrap;
   flex-wrap: wrap;
-  background-color: #011859;
+  background-color: var(--secondary-color);
   width: 80vw;
   min-height: 30vh;
   margin: auto;
@@ -34,7 +34,7 @@
   font-size: clamp(1.4rem, 4vw, 6rem);
   text-align: center;
   letter-spacing: -1px;
-  color: #d3ecfd;
+  color: var(--primary-color);
   line-height: 1;
   display: flex;
   justify-content: center;
@@ -73,8 +73,6 @@
     align-items: center;
     flex-flow: nowrap;
     flex-wrap: wrap;
-    background-color: #011859;
-    width: 80vw;
     min-height: 20vh;
   }
 
@@ -96,7 +94,6 @@
     max-width: 20vh;
   }
   #banner {
-    background-color: #011859;
     width: 90vw;
     min-height: 30vh;
   }
