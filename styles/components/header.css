@@ -2,28 +2,25 @@
 
 nav {
   display: flex;
-  flex-flow: wrap;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  margin-top: 24px;
+  margin-top: 0;
+  justify-content: center;
 }
 
 nav ul {
-  width: 80vw;
-  margin: auto;
+  width: 90vw;
   list-style: none;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  background-color: #ecf8ff;
-  border-radius: 32px;
-  box-shadow:
-    rgba(0, 0, 0, 0.057) 0px 20px 25px -5px,
-    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  position: fixed;
+  gap: 16px;
+  background-color: #ffffffc7;
+  backdrop-filter: blur(40px);
+  z-index: 1;
+  border-radius: 0px 0px 20px 20px;
 }
 
 nav li {
-  height: 80px;
+  height: 104px;
 }
 nav li:first-child {
   margin-right: auto;
@@ -55,6 +52,7 @@ nav li {
 
 .iconsNavbarLinke {
   fill: #187096;
+  margin-right: 3vw;
 }
 
 .iconsNavbar:hover {
@@ -77,6 +75,7 @@ nav li {
 
 .img-logonavbar img {
   max-height: 36px;
+  margin-left: 3vw;
 }
 
 .sidebar {
@@ -85,13 +84,13 @@ nav li {
   top: 0;
   min-height: 100vh;
   min-width: 100vw;
-  z-index: 999;
+  z-index: 2;
   background-color: #d3ecfd4b;
   display: none;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: 40px;
+  gap: 20px;
   backdrop-filter: blur(40px);
   transition: all;
   transition-duration: 0.5s;
@@ -128,5 +127,29 @@ nav li {
   nav a:hover {
     color: #042275d7;
     transition-duration: 0.9s;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  nav {
+    display: flex;
+    margin-top: 0;
+    justify-content: center;
+  }
+  nav ul {
+    width: 100vw;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    gap: 16px;
+    background-color: #ffffffc7;
+    backdrop-filter: blur(40px);
+    z-index: 1;
+    border-radius: 0px 0px 16px 16px;
+  }
+
+  nav li {
+    height: 84px;
   }
 }
