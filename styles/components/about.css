@@ -1,0 +1,118 @@
+@import url(../base.css);
+
+#sobre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100vw;
+  min-height: 30vh;
+  margin: auto;
+  background-color: #d3ecfd52;
+  margin-top: 120px;
+  border-radius: 0;
+  padding: 90px;
+}
+
+.img-sobre img {
+  max-width: 450px;
+  border-radius: 40px;
+}
+
+.txt-about {
+  max-width: 500px;
+  color: rgb(6, 42, 92);
+  font-size: 1.7rem;
+  text-align: justify;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 1500px) {
+  #sobre {
+    align-items: start;
+    gap: 60px;
+    width: 100vw;
+    min-height: 70vh;
+    margin: auto;
+    background-color: #d3ecfd52;
+    margin-top: 120px;
+    border-radius: 0;
+    padding: 90px;
+  }
+  .img-sobre img {
+    max-width: 600px;
+    border-radius: 40px;
+  }
+  .txt-about {
+    max-width: 600px;
+    color: rgb(6, 42, 92);
+    font-size: 1.8rem;
+    text-align: justify;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (max-width: 1310px) {
+  .img-sobre img {
+    max-width: 400px;
+    border-radius: 40px;
+  }
+
+  .txt-about {
+    max-width: 400px;
+    color: rgb(6, 42, 92);
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 1.3;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  #sobre {
+    width: 100vw;
+    min-height: 50vh;
+    margin: auto;
+    background-color: #d3ecfd52;
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 0;
+  }
+  .img-sobre img {
+    max-width: 300px;
+    border-radius: 40px;
+  }
+
+  .txt-about {
+    max-width: 300px;
+    color: rgb(6, 42, 92);
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 1.1;
+  }
+}
+@media screen and (max-width: 910px) {
+  .img-sobre img {
+    max-width: 40vw;
+    border-radius: 20px;
+  }
+
+  .txt-about {
+    margin-top: -30px;
+    max-width: 80vw;
+    color: rgb(6, 42, 92);
+    font-size: 1.3rem;
+    text-align: justify;
+    line-height: 1.1;
+  }
+
+  #sobre {
+    width: 100vw;
+    min-height: 50vh;
+    margin: auto;
+    background-color: #d3ecfd52;
+    margin-top: 60px;
+    padding: 30px;
+    border-radius: 0;
+  }
+}
