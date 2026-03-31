@@ -83,21 +83,15 @@
     flex-wrap: wrap;
     background-color: #011859;
     width: 90vw;
-    height: 65vh;
+    min-height: 40vh;
   }
 
   .txt-banner {
-    margin-top: -30px;
-    margin-bottom: 30px;
     font-size: 1.3rem;
     line-height: 1.2;
   }
   .img-banner > img {
-    max-height: 45vh;
-  }
-  .txt-banner {
-    margin-top: -90px;
-    font-size: 1.4rem;
+    max-width: 30vh;
   }
 }
 
@@ -107,11 +101,11 @@
     font-size: 1.1rem;
   }
   .img-banner > img {
-    max-height: 40vh;
+    max-width: 20vh;
   }
   #banner {
     background-color: #011859;
     width: 90vw;
-    height: 55vh;
+    min-height: 30vh;
   }
 }
