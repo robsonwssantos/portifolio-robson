@@ -1,4 +1,5 @@
 @import url(../base.css);
+@import url(./section-title.css);
 
 #sobre {
   max-width: 80vw;
@@ -31,17 +32,6 @@
   font-size: 1.2rem;
   padding: 20px;
   flex: 1;
-}
-
-.txt-sobremim {
-  margin-bottom: -16px;
-  z-index: 1;
-  text-align: center;
-  font-size: 1.4rem;
-  background-color: #011859;
-  padding: 12px;
-  border-radius: 8px 16px 8px 16px;
-  color: var(--text-color-secondary);
 }
 
 /*full screens*/
@@ -99,7 +89,7 @@
     text-align: start;
     padding: 8px;
   }
-  .txt-sobremim {
+  .section-title {
     margin-bottom: -8px;
     font-size: 1rem;
   }
