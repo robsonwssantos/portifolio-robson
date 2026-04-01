@@ -15,7 +15,7 @@ nav ul {
   gap: 16px;
   background-color: #ffffffc7;
   backdrop-filter: blur(40px);
-  z-index: 1;
+  z-index: 3;
   border-radius: 0px 0px 20px 20px;
 }
 
@@ -36,10 +36,13 @@ nav a {
 }
 
 nav a:hover {
-  color: #042275d7;
-  transition-duration: 1s;
+  color: #031546;
+  transition: all 0.8s ease-in-out;
 }
 
+nav a:hover::after {
+  transition-duration: 5s;
+}
 nav li {
   display: flex;
   align-items: center;
@@ -58,7 +61,6 @@ nav li {
 .iconsNavbar:hover {
   fill: #181818d7;
   transform: scale(1.1);
-  transition-duration: 0.9s;
 }
 
 .iconsNavbarLinke:hover {
@@ -84,7 +86,7 @@ nav li {
   top: 0;
   min-height: 100vh;
   min-width: 100vw;
-  z-index: 2;
+  z-index: 4;
   background-color: #d3ecfd4b;
   display: none;
   flex-direction: column;
