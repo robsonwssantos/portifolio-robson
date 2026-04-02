@@ -3,9 +3,8 @@
 .section-title {
   text-align: center;
   font-size: 1.1rem;
-  background-color: #011859;
   padding: 12px;
-  border-radius: 16px 16px 0px 0px;
-  color: var(--text-color-secondary);
+  border-radius: 24px 24px 0px 0px;
   width: 200px;
+  margin: auto;
 }
