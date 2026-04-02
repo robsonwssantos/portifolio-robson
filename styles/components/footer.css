@@ -50,3 +50,28 @@
   font-size: 1.5rem;
   margin: 16px;
 }
+
+/*CELULAR*/
+@media screen and (max-width: 480px) {
+  .list-footer li {
+    gap: 10px;
+    margin-bottom: 16px;
+    font-size: 1rem;
+  }
+
+  .ul-footer {
+    gap: 24px;
+    width: 100vw;
+    margin: auto;
+  }
+
+  .ul-footer svg {
+    width: 44px;
+  }
+  .ul-footer p {
+    font-size: 12px;
+  }
+  .txt-direitos {
+    font-size: 1.2rem;
+  }
+}

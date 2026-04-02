@@ -89,7 +89,7 @@ nav li {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: px;
+  gap: 8px;
   backdrop-filter: blur(40px);
   transition: all;
   transition-duration: 0.5s;
@@ -103,7 +103,7 @@ nav li {
   margin: auto;
 }
 .sidebar svg {
-  margin-top: 64px;
+  margin-top: 12px;
   fill: #011859;
 }
 
