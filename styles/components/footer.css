@@ -1,0 +1,52 @@
+@import url(../base.css);
+
+#container-footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: var(--secondary-color);
+  margin-top: 112px;
+  padding: 34px 0 0 0;
+}
+
+.list-footer li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  list-style-type: none;
+  font-size: 1.1rem;
+  color: var(--text-color-secondary);
+}
+.ul-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 36px;
+  width: 80vw;
+  margin: auto;
+}
+
+.ul-footer svg {
+  width: 56px;
+  height: auto;
+  padding: 3px;
+  border-radius: 12px;
+  background-color: rgb(240, 240, 240);
+}
+
+.list-footer li a {
+  text-decoration: none;
+  color: var(--text-color-secondary);
+}
+
+.txt-direitos {
+  color: var(--text-color-secondary);
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 16px;
+}
