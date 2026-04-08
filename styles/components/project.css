@@ -19,7 +19,7 @@
   margin: auto;
   margin-top: 144px;
   margin-bottom: 144px;
-  padding: 40px 16px 16px;
+  padding: 40px 16px 44px;
 }
 
 .section-title-projects {
@@ -108,13 +108,6 @@ p {
   background-color: #16317d;
 }
 
-p .span-modelo {
-  background-color: blue;
-  width: 90vw;
-  height: 700px;
-  margin-top: 200px;
-}
-
 .bnt-vermais-cards {
   display: flex;
   width: 100%;
@@ -126,17 +119,17 @@ p .span-modelo {
   border: none;
   background-color: #e0f2fe;
   padding: 8px 32px;
-  border-radius: 8px 8px 16px 16px;
+  border-radius: 12px 12px 12px 12px;
   font-size: 1rem;
   color: #011859;
   transition: all 0.8s ease-in-out;
 }
 .bnt-vermais-cards button:hover {
   border-radius: 16px;
-  background-color: #011859;
-  transition: all 0.8s ease-in-out;
-  color: var(--primary-color);
+  background-color: #e0f2fe;
+  color: #011859;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
 }
 
 @media screen and(max-width: 760px) {
