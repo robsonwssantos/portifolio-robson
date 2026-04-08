@@ -13,11 +13,9 @@
 #banner {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  flex-flow: wrap;
-  flex-wrap: wrap;
+  justify-content: space-around;
   background-color: var(--secondary-color);
-  width: 80vw;
+  max-width: 85vw;
   margin: auto;
   border-radius: 60px;
   margin-top: 112px;
@@ -28,7 +26,7 @@
 }
 
 .img-banner > img {
-  max-height: 50vw;
+  max-height: 40vw;
 }
 .txt-banner {
   font-size: clamp(1.4rem, 4vw, 6rem);
