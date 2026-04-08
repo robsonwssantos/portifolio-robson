@@ -2,9 +2,16 @@
 
 .section-title {
   text-align: center;
-  font-size: 1.1rem;
+  position: relative;
+  left: 50%;
+  top: 0; /* começa no topo */
+  transform: translate(-50%); /* remove o -50% vertical */
+  z-index: 10; /* garante que fique na frente */
   padding: 12px;
-  border-radius: 24px 24px 0px 0px;
+  margin-top: 44px;
+  border-radius: 16px 16px 16px 16px;
   width: 200px;
-  margin: auto;
+  color: var(--background-color);
+  background-color: #011859;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }

@@ -21,11 +21,6 @@
   border-radius: 20px;
 }
 
-.section-title-ligth {
-  background-color: var(--background-color);
-  color: var(--secondary-color);
-}
-
 .lista-tecnologias svg {
   width: 96px;
   height: auto;
