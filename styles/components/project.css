@@ -2,215 +2,172 @@
 @import url(./section-title.css);
 
 #section-projetos {
+  position: relative;
+  background-color: #011859;
+  width: 80%;
+  max-width: 1200px;
+  border-radius: 32px;
+  margin: auto;
+  margin-top: 126px;
+  padding: 40px 16px 16px;
+}
+
+.section-title-projects {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #e0f2fe;
+  text-align: center;
+  padding: 12px 46px;
+  border-radius: 28px 8px 28px 8px;
+  max-width: 400px;
+  color: #011859;
+  font-size: 1rem;
+}
+.container-cards {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  background-color: var(--secondary-color);
-  padding: 36px 0px 36px 0px;
-  border-radius: 24px;
-  width: 80vw;
-  margin: auto;
-  margin-top: 64px;
-  box-shadow:
-    rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  gap: 20px;
 }
 
-.section-title-dark {
-  margin: auto;
-}
-
-.card-projeto img {
-  max-width: 100%;
-  object-fit: cover;
-  border-radius: 12px;
-}
-
-.card-projeto {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-  background-color: var(--background-color);
-  max-width: 35vw;
+.container-cards article {
+  flex: 1 1 clamp(300px, 40%, 450px);
+  background-color: #e0f2fe;
   padding: 24px;
-  border-radius: 12px;
-  box-shadow:
-    rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
-    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-  transition: all 0.8s ease-in-out;
+  border-radius: 16px;
 }
 
-.card-projeto:hover {
-  transform: scale(1.02);
-}
-.card-projeto p {
-  margin-top: 12px;
-}
-.lista-card-tecnologias {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.container-cards article:hover {
+  transition: all 1s ease-in-out;
+  transform: scale(1.01);
 }
 
-.lista-card-tecnologias li {
-  list-style-type: none;
-  margin: 7px;
-}
-.lista-card-tecnologias li svg {
-  width: 44px;
+.img-cards {
+  max-width: 100%;
   height: auto;
+  border-radius: 22px;
 }
 
-.bnt-projetos {
+.tech-list-cards {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  margin: auto;
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-  width: 25vw;
-  padding: 12px;
+  gap: 4px;
+  flex-wrap: nowrap;
+}
+.tech-list-cards li {
+  background-color: grey;
+  width: 46px;
+  height: 46px;
+  list-style-type: none;
+  margin-top: 8px;
+}
+
+p {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.bnt-card-projetos button {
   border: none;
-  border-radius: 6px;
-  margin: 3px;
+  background-color: #011859;
+  padding: 23px;
+  width: 100%;
+  height: auto;
+  margin-top: 12px;
+  border-radius: 16px;
+  font-size: 1.2rem;
+  color: white;
+  transition: all 0.8s ease-in-out;
+}
+.bnt-card-projetos button:hover {
+  background-color: #16317d;
+}
+
+p .span-modelo {
+  background-color: blue;
+  width: 90vw;
+  height: 700px;
+  margin-top: 200px;
+}
+
+.bnt-vermais-cards {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.bnt-vermais-cards button {
+  position: absolute;
+  border: none;
+  background-color: #e0f2fe;
+  padding: 8px 32px;
+  border-radius: 8px 8px 16px 16px;
+  font-size: 1rem;
+  color: #011859;
+  transition: all 0.8s ease-in-out;
+}
+.bnt-vermais-cards button:hover {
+  border-radius: 16px;
+  background-color: #3b82f6;
   transition: all 0.8s ease-in-out;
 }
 
-.div-bnt-projetos a {
-  text-decoration: none;
-}
-.bnt-projetos:hover {
-  background-color: rgb(12, 12, 60);
-  cursor: pointer;
-  box-shadow:
-    rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px,
-    rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px,
-    rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-.section-projetos-title {
-  flex-basis: 100%;
-}
-
-/*full screen*/
-@media screen and (min-width: 1201px) {
-  #section-projetos {
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    border-radius: 24px;
-  }
-
-  .section-title-dark {
-    margin: auto;
-  }
-
-  .card-projeto img {
-    max-width: 100%;
-  }
-
-  .card-projeto {
-    max-width: 100vw;
-    padding: 8px;
-  }
-  .card-projeto p {
-    margin-top: 16px;
-  }
-
-  .lista-card-tecnologias li svg {
-    width: 56px;
-    height: auto;
-    margin: 6px;
-  }
-
-  .bnt-projetos {
-    margin-top: 8px;
-    width: 25vw;
-    padding: 24px;
-    font-size: 1.3rem;
-  }
-}
-
-/*TABLET*/
-@media screen and (max-width: 767px) {
-  #section-projetos {
+@media screen and(max-width: 760px) {
+  .tech-list-cards {
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 95vw;
-    border-radius: 24px;
-    background: var(--secondary-color);
-    margin-top: 112px;
+    gap: 2px;
   }
-
-  .section-title-dark {
-    margin: auto;
-  }
-
-  .card-projeto img {
-    max-width: 100%;
-  }
-
-  .card-projeto {
-    max-width: 40vw;
-    padding: 8px;
-  }
-  .card-projeto p {
-    margin-top: 16px;
-  }
-
-  .lista-card-tecnologias li svg {
+  .tech-list-cards li {
     width: 36px;
-    height: auto;
-    margin: 2px;
-  }
-
-  .bnt-projetos {
-    margin-top: 8px;
-    width: 35vw;
-    padding: 8px;
-    font-size: 1rem;
+    height: 36px;
+    background-color: red;
   }
 }
 
-/*CELULAR*/
 @media screen and (max-width: 480px) {
   #section-projetos {
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 80vw;
+    width: 85%;
     border-radius: 24px;
-    background: var(--secondary-color);
-    margin-top: 96px;
   }
 
-  .card-projeto img {
+  .section-title-projects {
+    padding: 12px 46px;
+    border-radius: 22px 8px 22px 8px;
+    max-width: 300px;
+    color: #011859;
+  }
+
+  .container-cards article {
+    flex: 1 1 clamp(250px, 30%, 350px);
+    background-color: #e0f2fe;
+    padding: 24px;
+    border-radius: 16px;
+  }
+
+  .container-cards article:hover {
+    transition: all 1s ease-in-out;
+    transform: scale(1.01);
+  }
+
+  .img-cards {
     max-width: 100%;
-  }
-
-  .card-projeto {
-    max-width: 80vw;
-    gap: 2px;
-    padding: 8px;
-    margin-top: 24px;
-  }
-  .card-projeto p {
-    margin-top: 16px;
-  }
-
-  .lista-card-tecnologias li svg {
-    width: 36px;
     height: auto;
-    margin: 2px;
+    border-radius: 22px;
   }
 
-  .bnt-projetos {
-    margin-top: 4px;
-    width: 40vw;
-    padding: 8px;
+  .tech-list-cards li {
+    width: 33px;
+    height: 33px;
+    margin-bottom: 8px;
+  }
+
+  .bnt-card-projetos button {
+    padding: 12px;
+    width: 100%;
+    margin-top: 6px;
+    border-radius: 12px;
     font-size: 1rem;
   }
 }
