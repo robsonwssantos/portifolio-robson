@@ -33,12 +33,11 @@ nav a {
   display: flex;
   align-items: center;
   color: var(--text-color-primary);
+  transition: all 0.5s ease-in-out;
 }
 
 nav a:hover {
-  color: #031546;
-  font-weight: bold;
-  transform: scale(1.01);
+  color: #020d2d;
 }
 
 nav li {

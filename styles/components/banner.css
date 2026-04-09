@@ -12,9 +12,10 @@
 
 #banner {
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
   background-color: var(--secondary-color);
-  width: 80%;
+  max-width: 85vw;
   margin: auto;
   border-radius: 60px;
   margin-top: 112px;
@@ -27,11 +28,8 @@
 .img-banner > img {
   max-height: 40vw;
 }
-.maquina-escrever {
-  color: var(--primary-color);
-}
 .txt-banner {
-  font-size: clamp(1.4rem, 3vw, 5rem);
+  font-size: clamp(1.4rem, 3.5vw, 6rem);
   text-align: center;
   letter-spacing: -1px;
   color: var(--primary-color);
@@ -42,6 +40,10 @@
   line-height: 1.1;
 }
 
+.txt-banner p {
+  color: var(--primary-color);
+  font-family: b-thin;
+}
 .maquina-escrever::after {
   content: "|";
   margin-left: 9px;

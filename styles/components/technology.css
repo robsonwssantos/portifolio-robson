@@ -54,6 +54,12 @@
   cursor: pointer;
 }
 
+.lista-tecnologias p {
+  color: #f8f9fb;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
 /*full screen*/
 @media screen and (min-width: 1201px) {
   .lista-tecnologias {
@@ -90,5 +96,11 @@
     padding: 6px;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
     transition: all 0.7s ease-in-out;
+  }
+
+  .lista-tecnologias p {
+    color: #f8f9fb;
+    margin-bottom: 4px;
+    font-size: 9px;
   }
 }
