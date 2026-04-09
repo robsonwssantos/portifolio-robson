@@ -37,12 +37,14 @@ nav a {
 
 nav a:hover {
   color: #031546;
-  transition: all 0.8s ease-in-out;
+  font-weight: bold;
+  transform: scale(1.01);
 }
 
 nav li {
   display: flex;
   align-items: center;
+  transition: all 0.5s ease-in-out;
 }
 
 .iconsNavbar {

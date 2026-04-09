@@ -28,7 +28,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: 12px;
   background-color: var(--secondary-color);
   min-height: 240px;
   list-style: none;
@@ -49,21 +49,12 @@
 .lista-tecnologias svg:hover {
   transform: scale(1.07);
   box-shadow:
-    rgba(50, 50, 93, 0.054) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.021) 0px 18px 36px -18px inset;
+    rgba(50, 50, 93, 0.195) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.117) 0px 18px 36px -18px inset;
   cursor: pointer;
 }
 
 /*full screen*/
-@media screen and (min-width: 1201px) {
-  .lista-tecnologias {
-    gap: 50px;
-    min-height: 240px;
-    list-style: none;
-    padding: 28px;
-  }
-}
-
 @media screen and (min-width: 1201px) {
   .lista-tecnologias {
     gap: 50px;
@@ -84,6 +75,7 @@
   }
   .section-tecnologias-h2 {
     width: 200px;
+    margin-top: -16px;
     border-radius: 22px 6px;
   }
   .lista-tecnologias {
