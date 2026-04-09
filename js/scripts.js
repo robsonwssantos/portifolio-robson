@@ -32,10 +32,10 @@ function toggleArticle() {
   artigos.forEach((artigo) => {
     if (artigo.style.display === "block") {
       artigo.style.display = "none";
-      bntVerMais.innerHTML = "MAIS PROJETOS";
+      bntVerMais.innerHTML = "VER MAIS";
     } else {
       artigo.style.display = "block";
-      bntVerMais.innerHTML = "Ver Menos";
+      bntVerMais.innerHTML = "VER MENOS";
     }
   });
 }

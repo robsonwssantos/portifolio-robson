@@ -15,9 +15,11 @@
   background-color: var(--secondary-color);
   color: var(--background-color);
   padding: 12px 22px;
-  border-radius: 22px 12px;
+  width: 300px;
+  border-radius: 22px 6px;
   margin-bottom: -22px;
   z-index: 1;
+  text-align: center;
 }
 
 .img-sobre img {
@@ -104,16 +106,16 @@
     flex-shrink: 0;
     margin: auto;
     box-shadow:
-      #011859ea -3px 3px,
-      #0118599d -7px 7px,
+      #011859d0 -4px 4px,
+      #01185957 -7px 7px,
       #01185972 -12px 12px,
-      #01185949 -17px 17px;
+      #01185924 -15px 15px;
   }
 
   .txt-about {
     font-size: 1rem;
     min-width: 260px;
-    text-align: start;
+    text-align: justify;
     padding: 8px;
   }
 }
