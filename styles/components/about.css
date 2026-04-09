@@ -2,7 +2,7 @@
 @import url(./section-title.css);
 
 #sobre {
-  max-width: 80vw;
+  max-width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,23 +11,39 @@
   margin-bottom: 144px;
 }
 
+.section-about-h2 {
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+  padding: 12px 22px;
+  border-radius: 22px 12px;
+  margin-bottom: -22px;
+  z-index: 1;
+}
+
 .img-sobre img {
   width: 300px;
   height: 600px;
   object-fit: cover;
   border-radius: 16px;
   flex-shrink: 0;
+  box-shadow:
+    #011859 -5px 5px,
+    #011859ea -10px 10px,
+    #0118599d -15px 15px,
+    #01185972 -20px 20px,
+    #01185949 -25px 25px;
 }
 
 .img-sobre {
   display: flex;
   flex-wrap: wrap;
-  background-color: var(--background-color);
+  background-color: #f5f9ff;
   padding: 32px;
   border-radius: 20px;
 }
 
 .txt-about {
+  text-align: start;
   min-width: 250px;
   font-family: b-thin;
   font-size: 1.2rem;
@@ -54,6 +70,11 @@
     border-radius: 50%;
     flex-shrink: 0;
     margin: auto;
+    box-shadow:
+      #011859ea -5px 5px,
+      #0118599d -10px 10px,
+      #01185972 -15px 15px,
+      #01185949 -20px 20px;
   }
 
   #sobre {
@@ -82,6 +103,11 @@
     border-radius: 50%;
     flex-shrink: 0;
     margin: auto;
+    box-shadow:
+      #011859ea -3px 3px,
+      #0118599d -7px 7px,
+      #01185972 -12px 12px,
+      #01185949 -17px 17px;
   }
 
   .txt-about {

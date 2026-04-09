@@ -32,7 +32,7 @@ function toggleArticle() {
   artigos.forEach((artigo) => {
     if (artigo.style.display === "block") {
       artigo.style.display = "none";
-      bntVerMais.innerHTML = "Ver Mais";
+      bntVerMais.innerHTML = "MAIS PROJETOS";
     } else {
       artigo.style.display = "block";
       bntVerMais.innerHTML = "Ver Menos";
