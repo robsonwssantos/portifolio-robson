@@ -56,7 +56,7 @@ function nativeScroll(distanceFromTheTop) {
 
 function scrollToSection(event) {
   event.preventDefault();
-  const distanceFromTheTop = getDistanceFromTheTop(event.target) - 115;
+  const distanceFromTheTop = getDistanceFromTheTop(event.target) - 130;
   nativeScroll(distanceFromTheTop);
 }
 
